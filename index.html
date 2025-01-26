@@ -20,25 +20,66 @@
                    <br>
                        <br>
                         Overall rating:
-                         <select type="rating">
-                          <option value="EXCELLENT">EXCELLENT</option>
+                         <select>
+                          <option value="excellent">EXCELLENT</option>
                           <option value="GOOD">GOOD</option>
                           <option value="POOR">POOR</option>
                           <option value="AVERAGE">AVERAGE</option>
                          </select>
                          <p>Would You recommend this event to others?</p>
                          <label for="Yes">Yes</label>
-                       <input type="Radio" value="yes"name="yes" id="Yes"/>
+                       <input type="Radio" name="recommend" value="yes" id="Yes"/>
                            <br>
                          <label for="No">No</label>
-                          <input type="Radio"value="No" name="No" id="No"/>
+                          <input type="Radio" name="recommend"  value="No"id="No"/>
                                <br>
                                <label for="textarea">Additional comments:</label>
                                      <br>
-                          <textarea rows="5"cols="20" name="box" placeholder="Enter ADDITIONAL Comments" id="textarea"></textarea>
-                                       <br>
+                          <textarea rows="5"cols="20" name="box" placeholder="Enter ADDITIONAL Comments" ></textarea>
+                                       <br><br>
+
                            <input type="submit" value="submit"/>
     
    </form>
+      <hr>
+      <form>
+      <h2>Employee Satisfaction Survey</h2>
+      <label for="employee">Employee Name:</label>
+      <input type="text" placeholder="Enter Employee Name" name="employee"id="employee"required>
+      <br> <br>
+      <label for="Department">Department Name:</label>
+      <input type="text" placeholder="Enter Your Department" name="Department"id="Depatment"required>
+      <section>
+        <p>How satisfied are you with your job?</p>
+        <input type="radio" id="101"name="Satisfaction" >
+        <label for="101">Very Satisfied</label>
+           <br>
+        <input type="radio" id="102"name="Satisfaction" >
+        <label for="102"> Satisfied</label>
+        <br>
+        <input type="radio" id="103"name="Satisfaction" >
+        <label for="103">Neutral</label>
+        <br>
+        <input type="radio" id="104"name="Satisfaction" >
+        <label for="104">Not satisfied</label>
+        <br>
+        <input type="radio" id="105"name="Satisfaction" >
+        <label for="105">very dissatisfied</label>
+      </section>
+      <br>
+       Overall rating:
+        <select>
+         <option value="excellent">EXCELLENT</option>
+         <option value="GOOD">GOOD</option>
+         <option value="POOR">POOR</option>
+         <option value="AVERAGE">AVERAGE</option>
+        </select>
+                 <br>
+                 <label for="suggest">Suggessions for Improvement:</label>
+                     <br>
+            <textarea rows="5" cols="30" type="text" placeholder="Enter Suggestion For Improvment"id="suggest"></textarea>
+                 <br>
+                 <input type="submit" value="submit"/>
+      </form>
 </body>
 </html>
