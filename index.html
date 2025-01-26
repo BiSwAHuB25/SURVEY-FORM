@@ -10,21 +10,21 @@
     
        <h1>Event Feedaback Survey</h1>
        <label for="Event">Event Name:</label>  
-       <input type="Text" class="input-field" name="event"  placeholder="Enter Event Name" required>
+       <input type="text" class="input-field" name="event"  placeholder="Enter Event Name"id="Event" required>
        
            <br>
                <br>
         <label for="Name">Your Name </label>
-         <input type="box" name="Name" required placeholder="Enter Your Name"required>
+         <input type="text" name="Name" placeholder="Enter Your Name" id="Name" required>
     
                    <br>
                        <br>
                         Overall rating:
-                         <select type="Rate">
+                         <select type="rating">
                           <option value="EXCELLENT">EXCELLENT</option>
-                          <option value="EXCELLENT">GOOD</option>
-                          <option value="EXCELLENT">POOR</option>
-                          <option value="EXCELLENT">AVERAGE</option>
+                          <option value="GOOD">GOOD</option>
+                          <option value="POOR">POOR</option>
+                          <option value="AVERAGE">AVERAGE</option>
                          </select>
                          <p>Would You recommend this event to others?</p>
                          <label for="Yes">Yes</label>
@@ -37,8 +37,8 @@
                                      <br>
                           <textarea rows="5"cols="20" name="box" placeholder="Enter ADDITIONAL Comments" id="textarea"></textarea>
                                        <br>
-                           <input type="button" value="submit"/>
+                           <input type="submit" value="submit"/>
     
-</form>
+   </form>
 </body>
 </html>
